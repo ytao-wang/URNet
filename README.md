@@ -58,9 +58,9 @@ We provide the pretrained models in `pre_trained` directory. To test URNet on be
 # URNet_X2
 python main.py --model urn --data_test Set5+Set14+B100+Urban100--scale 2 --pre_train ../pre_trained/urn_x2.pt --test_only --save_results
 # URNet_X3
-#python main.py --model urn --data_test Set5+Set14+B100+Urban100--scale 2 --pre_train ../pre_trained/urn_x3.pt --test_only --save_results
+#python main.py --model urn --data_test Set5+Set14+B100+Urban100--scale 3 --pre_train ../pre_trained/urn_x3.pt --test_only --save_results
 # URNet_X4
-#python main.py --model urn --data_test Set5+Set14+B100+Urban100--scale 2 --pre_train ../pre_trained/urn_x4.pt --test_only --save_results
+#python main.py --model urn --data_test Set5+Set14+B100+Urban100--scale 4 --pre_train ../pre_trained/urn_x4.pt --test_only --save_results
 ```
 
 
