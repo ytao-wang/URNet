@@ -41,7 +41,7 @@ All scripts are provided in the `src/demo.sh`. Note that URNet (x3, x4) requires
 Run the script in `src` folder. Before you run the demo, please uncomment the appropriate line in `demo.sh` that you want to execute.
 
 ```
-cd src       # You are now in */URNet-PyTorch/src
+cd src       # You are now in */URNet/src
 sh demo.sh
 ```
 
@@ -51,7 +51,7 @@ sh demo.sh
 
 We provide the pretrained models in `pre_trained` directory. To test URNet on benchmark dataset:
 
-**You can use scripts in file 'URNet-PyTorch/src' to test models for our paper.**
+**You can use scripts in file 'URNet/src' to test models for our paper.**
 
 ```shell
 # BI, scale 2, 3, 4
@@ -67,7 +67,7 @@ python main.py --model urn --data_test Set5+Set14+B100+Urban100--scale 2 --pre_t
 
 ### Train Models
 
-**You can use scripts in file 'URNet-PyTorch/src' to test models for our paper.**
+**You can use scripts in file 'URNet/src' to test models for our paper.**
 
 ```shell
 # URNet model (x2), input=64x64, output=128x128
