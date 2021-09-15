@@ -23,7 +23,6 @@ class Loss(nn.modules.loss._Loss):
         self.n_GPUs = args.n_GPUs
         self.loss = []
         self.loss_module = nn.ModuleList()
-        self.dual = args.dual
         loss_function = None
 
         for loss in args.loss.split('+'):
