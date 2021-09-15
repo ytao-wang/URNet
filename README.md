@@ -71,13 +71,13 @@ python main.py --model urn --data_test Set5+Set14+B100+Urban100--scale 2 --pre_t
 
 ```shell
 # URNet model (x2), input=64x64, output=128x128
-python main.py --model urn --scale 2 --patch_size 128 --save urn_x2 --loss 1.0*L1+0.25*canny --reset
+python main.py --model urn --scale 2 --patch_size 128 --batch_size 32 --save urn_x2 --loss 1.0*L1+0.25*canny --reset
 
 # URNet model (x3) - from URNet (x2), input=64x64, output=192x192
-#python main.py --model urn --scale 3 --patch_size 192 --save urn_x3  --loss 1.0*L1+0.25*canny --reset --pre_train [pre-trained urn_x2model dir]
+#python main.py --model urn --scale 3 --patch_size 192 --batch_size 32  --save urn_x3  --loss 1.0*L1+0.25*canny --reset --pre_train [pre-trained urn_x2model dir]
 
 # URNet model (x4) - from URNet (x2), input=64x64, output=256x256
-#python main.py --model urn --scale 4 --patch_size 256 --save urn_x4  --loss 1.0*L1+0.25*canny --reset --pre_train [pre-trained urn_x2 model dir]
+#python main.py --model urn --scale 4 --patch_size 256 --batch_size 32  --save urn_x4  --loss 1.0*L1+0.25*canny --reset --pre_train [pre-trained urn_x2 model dir]
 ```
 
 
